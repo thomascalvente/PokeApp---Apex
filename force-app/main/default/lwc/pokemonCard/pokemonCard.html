@@ -1,0 +1,33 @@
+<template>
+	<lightning-card title={pokemon.Name} class={pokemon.TiposFiltrados__c}>
+		<div class="extId">
+			<p class="slds-var-m-bottom_xx-small">Nº{pokemon.ExtId__c}</p>
+		</div>
+		<div class="logo-pokebola">
+			<img src="https://cdn.pixabay.com/photo/2018/05/21/13/09/pokemon-3418266_640.png" alt="Logo Pokebola" class="pokebola">				
+		</div>
+		
+		<div class="card__father">
+			<div class="card slds-media">
+				<div class="card__front bg-image">
+					
+					<div class="body__card_front slds-media__figure">
+						<img src={pokemon.Imagen__c} alt="Imagen pokemon" class="pokemon-silhouette"/>
+					</div>
+				</div>
+				<div class="card__back">
+					<div class="body__card_back slds-media__body text-black">
+						<p class="slds-var-m-bottom_xx-small">Altura: {pokemon.Altura__c}</p>
+						<p class="slds-var-m-bottom_xx-small">Peso: {pokemon.Peso__c}</p>
+						<div class="tipo">
+							<span class={pokemon.TiposFiltrados__c}>{pokemon.TiposFiltrados__c}</span>
+						</div>											
+						<input type="button" value="Ver Más" onclick={handleOpenRecordClick}>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</lightning-card>
+</template>

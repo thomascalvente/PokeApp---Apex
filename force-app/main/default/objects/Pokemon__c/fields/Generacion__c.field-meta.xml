@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generacion__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ExtId__c  &gt;=1  &amp;&amp;  ExtId__c  &lt;=151, 1, (
+ IF(ExtId__c  &gt;151  &amp;&amp;  ExtId__c  &lt;=251, 2, (
+ IF(ExtId__c  &gt;251  &amp;&amp;  ExtId__c  &lt;=386, 3, (
+ IF(ExtId__c  &gt;386  &amp;&amp;  ExtId__c  &lt;=493, 4, (
+ IF(ExtId__c  &gt;493  &amp;&amp;  ExtId__c  &lt;=649, 5, (
+ IF(ExtId__c  &gt;649  &amp;&amp;  ExtId__c  &lt;=721, 6, (
+ IF(ExtId__c  &gt;721  &amp;&amp;  ExtId__c  &lt;=809, 7, (
+ IF(ExtId__c  &gt;809  &amp;&amp;  ExtId__c  &lt;=898, 8, 0) )) )) )) )) )) )) ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Generacion</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

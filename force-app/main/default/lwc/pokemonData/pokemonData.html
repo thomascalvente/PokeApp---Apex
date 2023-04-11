@@ -1,0 +1,39 @@
+<template>
+    <div class="slds-media__figure contenedor">
+        <img src="https://pokedex-liard-delta.vercel.app/assets/pokedex.png" alt="Imagen pokemon" class="pokemon-silhouette"/>
+        <!--<img src="http://data.pixiz.com/output/user/frame/preview/api/big/2/3/0/0/2200032_50ba6.jpg" alt="Imagen pokemon" class=""/>-->
+        <lightning-record-view-form
+        object-api-name={objectApiName}
+        record-id={recordId}
+        class="texto-encima"
+        >   
+            <span class="pokemon-name">{nameField}</span>
+            <span class="pokemon-id">{extIdField}</span>
+            <lightning-output-field field-name={generacionField} class="pokemon-generacion"> </lightning-output-field>
+            <lightning-output-field field-name={habilidadField} class="pokemon-habilidad"> </lightning-output-field>
+            <lightning-output-field field-name={tiposField} class="pokemon-tipo"> </lightning-output-field>
+            <lightning-output-field field-name={alturaField} class="pokemon-altura"> </lightning-output-field>
+            <lightning-output-field field-name={pesoField} class="pokemon-peso"> </lightning-output-field>
+            <lightning-output-field variant="label-hidden" field-name={ataqueField} class="pokemon-ataque"> </lightning-output-field>
+            <lightning-output-field variant="label-hidden" field-name={vidaField} class="pokemon-vida"> </lightning-output-field>
+            <lightning-output-field variant="label-hidden" field-name={defensaField} class="pokemon-defensa"> </lightning-output-field>
+            <lightning-output-field variant="label-hidden" field-name={velocidadField} class="pokemon-velocidad"> </lightning-output-field>
+            <lightning-output-field field-name={slot1Field} class="pokemon-slot1"> </lightning-output-field>
+            <lightning-output-field field-name={slot2Field} class="pokemon-slot2"> </lightning-output-field>
+            <lightning-output-field field-name={slot3Field} class="pokemon-slot3"> </lightning-output-field>
+            <lightning-output-field field-name={slot4Field} class="pokemon-slot4"> </lightning-output-field>
+
+            
+            <p class="corazon">💚</p>
+            <p class="escudo">🛡️</p>
+            <p class="espada">⚔️</p>
+            <!--<p class="velocidad">💨</p>-->          
+            <p class="velocidad">👟</p>
+            <div class="imagen-contenedor">
+                <img src={imagenField} class="imagen">
+            </div>
+
+        </lightning-record-view-form>
+    </div>
+    
+</template>

@@ -1,0 +1,103 @@
+<template>
+	<lightning-card title="Pokemons" icon-name="utility:away">		
+		<div class="slds-card__body slds-card__body_inner">
+			<div class="logo-pokedex">
+				<img src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png" alt="Logo Pokedex">				
+			</div>			
+			
+			<div if:false={pokemons.data} class="slds-spinner_container">
+				<div role="status" class="slds-spinner">
+					<img src="https://i.pinimg.com/originals/c2/d9/45/c2d945dfe490074bae2b4e8c17692e1b.png" class="spinner" alt="Pokeball">
+				</div>
+			</div>
+
+			<template if:true={pokemons.data}>
+				<div class="slds-var-m-around_medium ">
+					<lightning-layout-item class="search">
+						<!-- Search -->
+						<div>
+							<lightning-input
+							type="search"
+							onchange={handleSearchTermChange}
+							variant="label-hidden"
+							class="slds-var-m-bottom_small search display-block"
+							label="Search"
+							placeholder="Buscar pokemon"
+							value={searchTerm}
+							>
+							</lightning-input>
+						</div>
+			
+						<!-- filtro generacion -->
+						<div>
+							<lightning-combobox
+							name="generacion"
+							label="Generación"
+							value={generacion}
+							placeholder="Seleccione generación"
+							options={generaciones}
+							onchange={handleGeneracionChange}
+							class="filter"
+							>
+							</lightning-combobox>
+						</div>
+			
+						<!-- filtro tipo -->
+						<div>
+							<lightning-combobox
+							name="tipo"
+							label="Tipo"
+							value={tipo}
+							placeholder="Seleccione tipo"
+							options={tipos}
+							onchange={handleTipoChange}
+							class="filter"
+							>
+							</lightning-combobox>
+						</div>
+
+						
+			
+						<div class="contador">Pokemons={pokemons.data.length}</div>
+					</lightning-layout-item>
+				</div>
+				<div class="text-end">
+					<lightning-combobox
+					name="orden"
+					label="Ordenar por"
+					value={orden}
+					placeholder="Seleccione el orden"
+					options={ordenar}
+					onchange={handleOrdenChange}
+					class="filter text-start"
+					>
+					</lightning-combobox>
+				</div>
+				<lightning-layout multiple-rows="true" pull-to-boundary="small">
+					<template for:each={visiblePokemons} for:item="pokemon">
+						<lightning-layout-item key={pokemon.Id} size="3" class="slds-var-p-around_x-small">
+							<c-pokemon-card pokemon={pokemon} onpokemonview={handlePokemonView}></c-pokemon-card>
+						</lightning-layout-item>
+					</template>
+				</lightning-layout>
+
+				<template if:false={hasResults}>
+					<div class="contenedor-gift-squirtle slds-var-m-vertical_small">
+						No se ha podido encontrar ningún resultado...
+						<img src="https://media.tenor.com/M49TybebIFcAAAAM/sad-crying.gif" alt="Gift Squirtle" class="gift-squirtle">
+					</div>
+				</template>
+
+				<div slot="footer" class="slds-m-vertical_xx-large">
+					<c-pokemon-pagination records={pokemons.data} onupdate={updatePokemonHandler}></c-pokemon-pagination>
+				</div>
+			</template>
+
+			<template if:true={pokemons.error}>
+				<div class="slds-text-color_error">
+					Ha ocurrido un error mientras se cargaba la lista de pokemones
+				</div>
+			</template>
+		</div>
+	</lightning-card>
+</template>

@@ -1,0 +1,2628 @@
+:host {
+    --color-fire: #ff7402;
+	--color-grass: #8edb1a;
+	--color-steel: #a3a3a3;
+	--color-water: #4592c4;
+	--color-psychic: #f366b9;
+	--color-ground: #ab9842;
+	--color-ice: #51c4e7;
+	--color-flying: #b8e6f3;
+	--color-ghost: #4d5b64;
+	--color-normal: #717e83;
+	--color-poison: #992075;
+	--color-rock: #a38c21;
+	--color-fighting: #e28246;
+	--color-dark: #3f3e3e;
+	--color-bug: #4d860a;
+	--color-dragon: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+	--color-electric: #ffe600;
+	--color-fairy: #fdb9e9;
+}
+
+.text-black{
+    color: black;
+}
+
+.tipo{
+    color: white; 
+    width: 50%;
+    margin: 1.5rem auto;
+}
+
+.Bug {
+    background-color: var(--color-bug);
+    --sds-c-card-color-background: linear-gradient(var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Dragon{   
+    background: linear-gradient(var(--color-bug), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Dark{   
+    background: linear-gradient(var(--color-bug), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Electric{   
+    background: linear-gradient(var(--color-bug), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Fairy{   
+    background: linear-gradient(var(--color-bug), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Fighting{   
+    background: linear-gradient(var(--color-bug), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Fire{   
+    background: linear-gradient(var(--color-bug), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Flying{   
+    background: linear-gradient(var(--color-bug), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Ghost{   
+    background: linear-gradient(var(--color-bug), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Grass{   
+    background: linear-gradient(var(--color-bug), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Ground{   
+    background: linear-gradient(var(--color-bug), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Ice{   
+    background: linear-gradient(var(--color-bug), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Normal{   
+    background: linear-gradient(var(--color-bug), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Poison{   
+    background: linear-gradient(var(--color-bug), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Psychic{   
+    background: linear-gradient(var(--color-bug), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Rock{   
+    background: linear-gradient(var(--color-bug), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Steel{   
+    background: linear-gradient(var(--color-bug), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Bug-Water{   
+    background: linear-gradient(var(--color-bug), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-bug), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-bug);
+	border-radius: .25rem;
+}
+
+.Dark {
+    background-color: var(--color-dark);
+    --sds-c-card-color-background: linear-gradient(var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Dragon{   
+    background: linear-gradient(var(--color-dark), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Bug{   
+    background: linear-gradient(var(--color-dark), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Electric{   
+    background: linear-gradient(var(--color-dark), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Fairy{   
+    background: linear-gradient(var(--color-dark), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Fighting{   
+    background: linear-gradient(var(--color-dark), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Fire{   
+    background: linear-gradient(var(--color-dark), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Flying{   
+    background: linear-gradient(var(--color-dark), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Ghost{   
+    background: linear-gradient(var(--color-dark), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Grass{   
+    background: linear-gradient(var(--color-dark), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Ground{   
+    background: linear-gradient(var(--color-dark), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Ice{   
+    background: linear-gradient(var(--color-dark), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Normal{   
+    background: linear-gradient(var(--color-dark), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Poison{   
+    background: linear-gradient(var(--color-dark), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Psychic{   
+    background: linear-gradient(var(--color-dark), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Rock{   
+    background: linear-gradient(var(--color-dark), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Steel{   
+    background: linear-gradient(var(--color-dark), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dark-Water{   
+    background: linear-gradient(var(--color-dark), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-dark), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: .25rem;
+}
+
+.Dragon {
+    background: var(--color-dragon);
+    --sds-c-card-color-background: linear-gradient(180deg, rgba(255,255,255,1) 0%,#f16e57 100%);
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Bug{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-bug));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Electric{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-electric));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Fairy{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-fairy));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Fighting{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-fighting));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Fire{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-fire));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Flying{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-flying));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Ghost{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-ghost));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Grass{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-grass));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Ground{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-ground));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Ice{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-ice));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Normal{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-normal));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Poison{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-poison));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Psychic{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-psychic));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Rock{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-rock));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Steel{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-steel));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Dragon-Water{   
+    background: linear-gradient(#53a4cf, #f16e57, var(--color-water));
+    --sds-c-card-color-background: linear-gradient(#53a4cf, #f16e57, var(--color-water));
+    display: block;
+	border: 2px solid #f16e57;
+	border-radius: .25rem;
+}
+
+.Electric {
+    color: black;
+    background-color: var(--color-electric);
+    --sds-c-card-color-background: linear-gradient(var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Dragon{   
+    background: linear-gradient(var(--color-electric), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Bug{   
+    background: linear-gradient(var(--color-electric), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Dark{   
+    background: linear-gradient(var(--color-electric), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Fairy{   
+    background: linear-gradient(var(--color-electric), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Fighting{   
+    background: linear-gradient(var(--color-electric), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Fire{   
+    background: linear-gradient(var(--color-electric), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Flying{   
+    background: linear-gradient(var(--color-electric), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Ghost{   
+    background: linear-gradient(var(--color-electric), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Grass{   
+    background: linear-gradient(var(--color-electric), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Ground{   
+    background: linear-gradient(var(--color-electric), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Ice{   
+    background: linear-gradient(var(--color-electric), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Normal{   
+    background: linear-gradient(var(--color-electric), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Poison{   
+    background: linear-gradient(var(--color-electric), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Psychic{   
+    background: linear-gradient(var(--color-electric), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Rock{   
+    background: linear-gradient(var(--color-electric), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Steel{   
+    background: linear-gradient(var(--color-electric), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Electric-Water{   
+    background: linear-gradient(var(--color-electric), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-electric), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-electric);
+	border-radius: .25rem;
+}
+
+.Fairy {
+    background-color: var(--color-fairy);
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Dragon{   
+    background: linear-gradient(var(--color-fairy), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Bug{   
+    background: linear-gradient(var(--color-fairy), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Dark{   
+    background: linear-gradient(var(--color-fairy), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Electric{   
+    background: linear-gradient(var(--color-fairy), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Fighting{   
+    background: linear-gradient(var(--color-fairy), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Fire{   
+    background: linear-gradient(var(--color-fairy), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Flying{   
+    background: linear-gradient(var(--color-fairy), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Ghost{   
+    background: linear-gradient(var(--color-fairy), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Grass{   
+    background: linear-gradient(var(--color-fairy), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Ground{   
+    background: linear-gradient(var(--color-fairy), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Ice{   
+    background: linear-gradient(var(--color-fairy), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Normal{   
+    background: linear-gradient(var(--color-fairy), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Poison{   
+    background: linear-gradient(var(--color-fairy), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Psychic{   
+    background: linear-gradient(var(--color-fairy), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Rock{   
+    background: linear-gradient(var(--color-fairy), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Steel{   
+    background: linear-gradient(var(--color-fairy), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fairy-Water{   
+    background: linear-gradient(var(--color-fairy), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-fairy), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-fairy);
+	border-radius: .25rem;
+}
+
+.Fighting {
+    background-color: var(--color-fighting);
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Dragon{   
+    background: linear-gradient(var(--color-fighting), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Bug{   
+    background: linear-gradient(var(--color-fighting), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Dark{   
+    background: linear-gradient(var(--color-fighting), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Electric{   
+    background: linear-gradient(var(--color-fighting), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Fairy{   
+    background: linear-gradient(var(--color-fighting), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Fire{   
+    background: linear-gradient(var(--color-fighting), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Flying{   
+    background: linear-gradient(var(--color-fighting), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Ghost{   
+    background: linear-gradient(var(--color-fighting), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Grass{   
+    background: linear-gradient(var(--color-fighting), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Ground{   
+    background: linear-gradient(var(--color-fighting), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Ice{   
+    background: linear-gradient(var(--color-fighting), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Normal{   
+    background: linear-gradient(var(--color-fighting), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Poison{   
+    background: linear-gradient(var(--color-fighting), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Psychic{   
+    background: linear-gradient(var(--color-fighting), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Rock{   
+    background: linear-gradient(var(--color-fighting), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Steel{   
+    background: linear-gradient(var(--color-fighting), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fighting-Water{   
+    background: linear-gradient(var(--color-fighting), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-fighting), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-fighting);
+	border-radius: .25rem;
+}
+
+.Fire {
+    background-color: var(--color-fire);
+    --sds-c-card-color-background: linear-gradient(var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Dragon{   
+    background: linear-gradient(var(--color-fire), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Bug{   
+    background: linear-gradient(var(--color-fire), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Dark{   
+    background: linear-gradient(var(--color-fire), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Electric{   
+    background: linear-gradient(var(--color-fire), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Fairy{   
+    background: linear-gradient(var(--color-fire), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Fighting{   
+    background: linear-gradient(var(--color-fire), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Flying{   
+    background: linear-gradient(var(--color-fire), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Ghost{   
+    background: linear-gradient(var(--color-fire), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Grass{   
+    background: linear-gradient(var(--color-fire), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Ground{   
+    background: linear-gradient(var(--color-fire), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Ice{   
+    background: linear-gradient(var(--color-fire), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Normal{   
+    background: linear-gradient(var(--color-fire), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Poison{   
+    background: linear-gradient(var(--color-fire), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Psychic{   
+    background: linear-gradient(var(--color-fire), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Rock{   
+    background: linear-gradient(var(--color-fire), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Steel{   
+    background: linear-gradient(var(--color-fire), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Fire-Water{   
+    background: linear-gradient(var(--color-fire), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-fire), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-fire);
+	border-radius: .25rem;
+}
+
+.Flying {
+    background-color: var(--color-flying);
+    --sds-c-card-color-background: linear-gradient(var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-flying);
+	border-radius: .25rem;
+}
+
+.Flying-Dragon{   
+    background: linear-gradient(var(--color-flying), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-flying), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-flying);
+	border-radius: .25rem;
+}
+
+.Flying-Normal{   
+    background: linear-gradient(var(--color-flying), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-flying), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-flying);
+	border-radius: .25rem;
+}
+
+.Flying-Steel{   
+    background: linear-gradient(var(--color-flying), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-flying), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-flying);
+	border-radius: .25rem;
+}
+
+.Flying-Water{   
+    background: linear-gradient(var(--color-flying), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-flying), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-flying);
+	border-radius: .25rem;
+}
+
+.Ghost {
+    background-color: var(--color-ghost);
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Dragon{   
+    background: linear-gradient(var(--color-ghost), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Bug{   
+    background: linear-gradient(var(--color-ghost), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Dark{   
+    background: linear-gradient(var(--color-ghost), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Electric{   
+    background: linear-gradient(var(--color-ghost), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Fairy{   
+    background: linear-gradient(var(--color-ghost), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Fighting{   
+    background: linear-gradient(var(--color-ghost), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Fire{   
+    background: linear-gradient(var(--color-ghost), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Flying{   
+    background: linear-gradient(var(--color-ghost), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Grass{   
+    background: linear-gradient(var(--color-ghost), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Ground{   
+    background: linear-gradient(var(--color-ghost), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Ice{   
+    background: linear-gradient(var(--color-ghost), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Normal{   
+    background: linear-gradient(var(--color-ghost), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Poison{   
+    background: linear-gradient(var(--color-ghost), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Psychic{   
+    background: linear-gradient(var(--color-ghost), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Rock{   
+    background: linear-gradient(var(--color-ghost), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Steel{   
+    background: linear-gradient(var(--color-ghost), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Ghost-Water{   
+    background: linear-gradient(var(--color-ghost), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-ghost), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-ghost);
+	border-radius: .25rem;
+}
+
+.Grass {
+    background-color: var(--color-grass);
+    --sds-c-card-color-background: linear-gradient(var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Dragon{   
+    background: linear-gradient(var(--color-grass), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Bug{   
+    background: linear-gradient(var(--color-grass), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Dark{   
+    background: linear-gradient(var(--color-grass), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Electric{   
+    background: linear-gradient(var(--color-grass), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Fairy{   
+    background: linear-gradient(var(--color-grass), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Fighting{   
+    background: linear-gradient(var(--color-grass), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Fire{   
+    background: linear-gradient(var(--color-grass), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Flying{   
+    background: linear-gradient(var(--color-grass), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Ghost{   
+    background: linear-gradient(var(--color-grass), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Ground{   
+    background: linear-gradient(var(--color-grass), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Ice{   
+    background: linear-gradient(var(--color-grass), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Normal{   
+    background: linear-gradient(var(--color-grass), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Poison{   
+    background: linear-gradient(var(--color-grass), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Psychic{   
+    background: linear-gradient(var(--color-grass), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Rock{   
+    background: linear-gradient(var(--color-grass), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Steel{   
+    background: linear-gradient(var(--color-grass), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Grass-Water{   
+    background: linear-gradient(var(--color-grass), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-grass), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-grass);
+	border-radius: .25rem;
+}
+
+.Ground {
+    background-color: var(--color-ground);
+    --sds-c-card-color-background: linear-gradient(var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Dragon{   
+    background: linear-gradient(var(--color-ground), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Bug{   
+    background: linear-gradient(var(--color-ground), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Dark{   
+    background: linear-gradient(var(--color-ground), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Electric{   
+    background: linear-gradient(var(--color-ground), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Fairy{   
+    background: linear-gradient(var(--color-ground), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Fighting{   
+    background: linear-gradient(var(--color-ground), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Fire{   
+    background: linear-gradient(var(--color-ground), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Flying{   
+    background: linear-gradient(var(--color-ground), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Ghost{   
+    background: linear-gradient(var(--color-ground), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Grass{   
+    background: linear-gradient(var(--color-ground), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Ice{   
+    background: linear-gradient(var(--color-ground), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Normal{   
+    background: linear-gradient(var(--color-ground), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Poison{   
+    background: linear-gradient(var(--color-ground), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Psychic{   
+    background: linear-gradient(var(--color-ground), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Rock{   
+    background: linear-gradient(var(--color-ground), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Steel{   
+    background: linear-gradient(var(--color-ground), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ground-Water{   
+    background: linear-gradient(var(--color-ground), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-ground), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-ground);
+	border-radius: .25rem;
+}
+
+.Ice {
+    background-color: var(--color-ice);
+    --sds-c-card-color-background: linear-gradient(var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Dragon{   
+    background: linear-gradient(var(--color-ice), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Bug{   
+    background: linear-gradient(var(--color-ice), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Dark{   
+    background: linear-gradient(var(--color-ice), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Electric{   
+    background: linear-gradient(var(--color-ice), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Fairy{   
+    background: linear-gradient(var(--color-ice), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Fighting{   
+    background: linear-gradient(var(--color-ice), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Fire{   
+    background: linear-gradient(var(--color-ice), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Flying{   
+    background: linear-gradient(var(--color-ice), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Ghost{   
+    background: linear-gradient(var(--color-ice), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Grass{   
+    background: linear-gradient(var(--color-ice), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Ground{   
+    background: linear-gradient(var(--color-ice), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Normal{   
+    background: linear-gradient(var(--color-ice), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Poison{   
+    background: linear-gradient(var(--color-ice), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Psychic{   
+    background: linear-gradient(var(--color-ice), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Rock{   
+    background: linear-gradient(var(--color-ice), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Steel{   
+    background: linear-gradient(var(--color-ice), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Ice-Water{   
+    background: linear-gradient(var(--color-ice), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-ice), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-ice);
+	border-radius: .25rem;
+}
+
+.Normal {
+    background-color: var(--color-normal);
+    --sds-c-card-color-background: linear-gradient(var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Dragon{   
+    background: linear-gradient(var(--color-normal), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Bug{   
+    background: linear-gradient(var(--color-normal), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Dark{   
+    background: linear-gradient(var(--color-normal), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Electric{   
+    background: linear-gradient(var(--color-normal), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Fairy{   
+    background: linear-gradient(var(--color-normal), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Fighting{   
+    background: linear-gradient(var(--color-normal), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Fire{   
+    background: linear-gradient(var(--color-normal), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Flying{   
+    background: linear-gradient(var(--color-normal), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Ghost{   
+    background: linear-gradient(var(--color-normal), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Grass{   
+    background: linear-gradient(var(--color-normal), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Ground{   
+    background: linear-gradient(var(--color-normal), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Ice{   
+    background: linear-gradient(var(--color-normal), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Poison{   
+    background: linear-gradient(var(--color-normal), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Psychic{   
+    background: linear-gradient(var(--color-normal), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Rock{   
+    background: linear-gradient(var(--color-normal), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Steel{   
+    background: linear-gradient(var(--color-normal), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Normal-Water{   
+    background: linear-gradient(var(--color-normal), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-normal), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-normal);
+	border-radius: .25rem;
+}
+
+.Poison {
+    background-color: var(--color-poison);
+    --sds-c-card-color-background: linear-gradient(var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Dragon{   
+    background: linear-gradient(var(--color-poison), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Bug{   
+    background: linear-gradient(var(--color-poison), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Dark{   
+    background: linear-gradient(var(--color-poison), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Electric{   
+    background: linear-gradient(var(--color-poison), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Fairy{   
+    background: linear-gradient(var(--color-poison), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Fighting{   
+    background: linear-gradient(var(--color-poison), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Fire{   
+    background: linear-gradient(var(--color-poison), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Flying{   
+    background: linear-gradient(var(--color-poison), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Ghost{   
+    background: linear-gradient(var(--color-poison), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Grass{   
+    background: linear-gradient(var(--color-poison), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Ground{   
+    background: linear-gradient(var(--color-poison), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Ice{   
+    background: linear-gradient(var(--color-poison), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Normal{   
+    background: linear-gradient(var(--color-poison), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Psychic{   
+    background: linear-gradient(var(--color-poison), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Rock{   
+    background: linear-gradient(var(--color-poison), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Steel{   
+    background: linear-gradient(var(--color-poison), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Poison-Water{   
+    background: linear-gradient(var(--color-poison), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-poison), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-poison);
+	border-radius: .25rem;
+}
+
+.Psychic {
+    background-color: var(--color-psychic);
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Dragon{   
+    background: linear-gradient(var(--color-psychic), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Bug{   
+    background: linear-gradient(var(--color-psychic), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Dark{   
+    background: linear-gradient(var(--color-psychic), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Electric{   
+    background: linear-gradient(var(--color-psychic), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Fairy{   
+    background: linear-gradient(var(--color-psychic), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Fighting{   
+    background: linear-gradient(var(--color-psychic), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Fire{   
+    background: linear-gradient(var(--color-psychic), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Flying{   
+    background: linear-gradient(var(--color-psychic), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Ghost{   
+    background: linear-gradient(var(--color-psychic), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Grass{   
+    background: linear-gradient(var(--color-psychic), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Ground{   
+    background: linear-gradient(var(--color-psychic), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Ice{   
+    background: linear-gradient(var(--color-psychic), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Normal{   
+    background: linear-gradient(var(--color-psychic), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Poison{   
+    background: linear-gradient(var(--color-psychic), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Rock{   
+    background: linear-gradient(var(--color-psychic), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Steel{   
+    background: linear-gradient(var(--color-psychic), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Psychic-Water{   
+    background: linear-gradient(var(--color-psychic), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-psychic), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-psychic);
+	border-radius: .25rem;
+}
+
+.Rock {
+    background-color: var(--color-rock);
+    --sds-c-card-color-background: linear-gradient(var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Dragon{   
+    background: linear-gradient(var(--color-rock), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Bug{   
+    background: linear-gradient(var(--color-rock), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Dark{   
+    background: linear-gradient(var(--color-rock), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Electric{   
+    background: linear-gradient(var(--color-rock), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Fairy{   
+    background: linear-gradient(var(--color-rock), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Fighting{   
+    background: linear-gradient(var(--color-rock), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Fire{   
+    background: linear-gradient(var(--color-rock), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Flying{   
+    background: linear-gradient(var(--color-rock), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Ghost{   
+    background: linear-gradient(var(--color-rock), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Grass{   
+    background: linear-gradient(var(--color-rock), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Ground{   
+    background: linear-gradient(var(--color-rock), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Ice{   
+    background: linear-gradient(var(--color-rock), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Normal{   
+    background: linear-gradient(var(--color-rock), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Poison{   
+    background: linear-gradient(var(--color-rock), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Psychic{   
+    background: linear-gradient(var(--color-rock), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Steel{   
+    background: linear-gradient(var(--color-rock), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Rock-Water{   
+    background: linear-gradient(var(--color-rock), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-rock), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-rock);
+	border-radius: .25rem;
+}
+
+.Steel {
+    background-color: var(--color-steel);
+    --sds-c-card-color-background: linear-gradient(var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Dragon{   
+    background: linear-gradient(var(--color-steel), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Bug{   
+    background: linear-gradient(var(--color-steel), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Dark{   
+    background: linear-gradient(var(--color-steel), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Electric{   
+    background: linear-gradient(var(--color-steel), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Fairy{   
+    background: linear-gradient(var(--color-steel), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Fighting{   
+    background: linear-gradient(var(--color-steel), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Fire{   
+    background: linear-gradient(var(--color-steel), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Flying{   
+    background: linear-gradient(var(--color-steel), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Ghost{   
+    background: linear-gradient(var(--color-steel), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Grass{   
+    background: linear-gradient(var(--color-steel), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Ground{   
+    background: linear-gradient(var(--color-steel), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Ice{   
+    background: linear-gradient(var(--color-steel), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Normal{   
+    background: linear-gradient(var(--color-steel), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Poison{   
+    background: linear-gradient(var(--color-steel), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Psychic{   
+    background: linear-gradient(var(--color-steel), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Rock{   
+    background: linear-gradient(var(--color-steel), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Steel-Water{   
+    background: linear-gradient(var(--color-steel), var(--color-water));
+    --sds-c-card-color-background: linear-gradient(var(--color-steel), var(--color-water));
+    display: block;
+	border: 2px solid var(--color-steel);
+	border-radius: .25rem;
+}
+
+.Water {
+	background-color: var(--color-water);
+    --sds-c-card-color-background: linear-gradient(var(--color-water));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Bug{   
+    background: linear-gradient(var(--color-water), var(--color-bug));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-bug));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Dark{   
+    background: linear-gradient(var(--color-water), var(--color-dark));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-dark));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Electric{   
+    background: linear-gradient(var(--color-water), var(--color-electric));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-electric));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Fairy{   
+    background: linear-gradient(var(--color-water), var(--color-fairy));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-fairy));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Fighting{   
+    background: linear-gradient(var(--color-water), var(--color-fighting));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-fighting));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Fire{   
+    background: linear-gradient(var(--color-water), var(--color-fire));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-fire));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Flying{   
+    background: linear-gradient(var(--color-water), var(--color-flying));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-flying));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Ghost{   
+    background: linear-gradient(var(--color-water), var(--color-ghost));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-ghost));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Grass{   
+    background: linear-gradient(var(--color-water), var(--color-grass));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-grass));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Ground{   
+    background: linear-gradient(var(--color-water), var(--color-ground));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-ground));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Ice{   
+    background: linear-gradient(var(--color-water), var(--color-ice));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-ice));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Normal{   
+    background: linear-gradient(var(--color-water), var(--color-normal));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-normal));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Poison{   
+    background: linear-gradient(var(--color-water), var(--color-poison));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-poison));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Psychic{   
+    background: linear-gradient(var(--color-water), var(--color-psychic));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-psychic));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Rock{   
+    background: linear-gradient(var(--color-water), var(--color-rock));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-rock));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Steel{   
+    background: linear-gradient(var(--color-water), var(--color-steel));
+    --sds-c-card-color-background: linear-gradient(var(--color-water), var(--color-steel));
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.Water-Dragon{   
+    background: linear-gradient(var(--color-water), #53a4cf, #f16e57);
+    --sds-c-card-color-background: linear-gradient(var(--color-water), #53a4cf, #f16e57);
+    display: block;
+	border: 2px solid var(--color-water);
+	border-radius: .25rem;
+}
+
+.extId{
+    position: absolute;
+    right: 30px;
+    top: 11px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bg-image{
+    
+    background-image: url("https://i.pinimg.com/736x/d6/7c/3c/d67c3cbce4d7e9355e8522e10434d76c.jpg");
+
+}
+
+.pokemon-silhouette {
+	height: 119px;
+}
+
+.logo-pokebola{
+    width: 45px;
+    margin: auto;
+}
+
+.pokebola {      
+    animation: pokebola 2s linear infinite;
+}
+
+@keyframes pokebola {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.card__father{
+    perspective: 1000px;
+    padding-top: 10px;
+}
+
+.card__father:hover .card{
+    transform: rotateY(180deg);
+}
+
+.card{
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1000ms;
+}
+
+.card__front{
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card__front,
+.card__back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+
+.card__back{
+    transform: rotateY(180deg);
+    background: white;
+}
+
+.body__card_front{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: translateZ(60px);
+}
+
+.body__card_back{
+    text-align: center;
+    transform: translateZ(60px);
+    height: 90%;
+    padding-top: 30px;
+}
+
+.body__card_back p{
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+.body__card_back input{
+    padding: 0.3rem;
+    display: block;
+    margin: 1.9rem auto;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #58B0F6;
+    box-shadow: 2px 2px 30px -5px #58B0F6;
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+}
+
+.body__card_back input:hover{
+    box-shadow: 2px 2px 30px 0px #449de6;
+}

@@ -1,0 +1,186 @@
+.pokemon-silhouette {
+    width: 40rem;
+}
+
+.bg{
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+}
+
+.contenedor{
+    position: absolute;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.pokemon-name{
+    position: absolute;
+    left: 100px;
+    top: 520px;
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.pokemon-id{
+    position: absolute;
+    font-size: 40px;
+    left: 65px;
+    top: 30px;
+    width: 80px;
+    text-align: center;
+}
+
+.pokemon-generacion{
+    left: 220px;
+    top: 770px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.pokemon-habilidad{
+    left: 355px;
+    top: 595px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.pokemon-altura{
+    left: 89px;
+    top: 490px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.pokemon-peso{
+    left: 89px;
+    top: 495px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+.pokemon-tipo{
+    left: 355px;
+    top: 600px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.pokemon-vida{
+    left: 64px;
+    top: 55px;
+}
+
+.pokemon-defensa{
+    left: 485px;
+    top: 35px;
+}
+
+.pokemon-ataque{
+    left: 64px;
+    top: 180px;
+}
+
+.pokemon-velocidad{
+    left: 485px;
+    top: 120px;
+}
+
+.pokemon-slot1{
+    width: 125px;
+    left: 25px;
+    top: 500px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.pokemon-slot2{
+    width: 125px;
+    left: 155px;
+    top: 447px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.pokemon-slot3{
+    width: 125px;
+    left: 285px;
+    top: 394px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.pokemon-slot4{
+    width: 125px;
+    left: 415px;
+    top: 341px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.corazon{
+    position: absolute;
+    bottom: 220px;
+    left: 54px;
+    font-size: 25px;
+    background: lightgreen;
+    border-radius: 25px;
+    width: 35px;
+    text-align: center;
+}
+
+.escudo{
+    position: absolute;
+    bottom: 220px;
+    left: 475px;
+    font-size: 25px;
+    background: lightskyblue;
+    border-radius: 50px;
+    width: 35px;
+    text-align: center;
+}
+
+.espada{
+    position: absolute;
+    bottom: 115px;
+    left: 54px;
+    font-size: 25px;
+    background: lightsalmon;
+    border-radius: 25px;
+    width: 35px;
+    text-align: center;
+}
+
+.velocidad{
+    position: absolute;
+    bottom: 115px;
+    left: 475px;
+    font-size: 25px;
+    background: lightcyan;
+    border-radius: 50px;
+    width: 35px;
+    text-align: center;
+}
+
+.imagen-contenedor{
+    position: relative;
+    left: 230px;
+    bottom: 425px;
+}
+
+.imagen{
+    position: absolute;
+    top: 190px;
+    width: 100%;
+}
